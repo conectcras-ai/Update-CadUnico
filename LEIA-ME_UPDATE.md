@@ -1,16 +1,11 @@
 # Update-CadUnico
 
-Publique o conteudo desta pasta no repositorio:
+Versão publicada: 1.0.30.
 
-https://github.com/conectcras-ai/Update-CadUnico
+Máscaras de CPF/NIS/telefone nas listas, histórico e relatórios; controle de exportação PDF/XLSX; permissões negadas sem sessão ou sem consulta válida; filtro de sigilo e público na réplica; negativa de acesso não vira login offline; versão empacotada prevalece sobre launcher antigo.
 
-Estrutura esperada:
+18 testes passaram; 160 no conjunto dos cinco programas. Sem migração nova.
 
-- manifest.xml
-- public.pem
-- app/cadunico-app-1.0.0-all.jar
+Use Sobre > Verificar / Atualizar agora e reinicie quando solicitado. O nome físico do JAR permanece estável. Manifesto e binário assinados; confira REVISAO_1.0.30.md para detalhes.
 
-Versao publicada: 1.0.6. O nome fisico do JAR permanece estavel para atualizar instalacoes 1.0.0 existentes.
-O manifesto contem tamanho, checksum e assinatura digital.
-
-Para o botao Sobre > Atualizar sistema detectar nova versao, a versao do manifest precisa ser maior que a versao instalada.
+Limitações: NÃO remove caches/anexos antigos, NÃO altera grants nem separa contas do banco e NÃO encerra a validação completa de todas as telas. A publicação não instala automaticamente nos computadores.
